@@ -1,0 +1,473 @@
+# Basel Framework, IFRS Standards, and Credit Risk
+
+---
+
+## User Request
+
+Basel framework and IFRS standards, 3 pillars of credit risk - basel-1,2,3,minimal capital requirements,IRB approach - in easy to understand language with examples
+
+---
+
+# 1. Basel Framework (Easy Explanation)
+
+## What is Basel Framework?
+
+The **Basel Framework** is a set of **international banking regulations** created to make banks **safe and stable**.
+
+It tells banks:
+
+* How much **capital (money)** they must keep
+* How to **manage risks**
+* How to **avoid bank failures**
+
+These rules are created by the **Basel Committee on Banking Supervision (BCBS)**.
+
+The committee operates from **Basel, Switzerland**, which is why it is called the **Basel Framework**.
+
+---
+
+## Why Basel Framework is Needed
+
+Banks give loans to people and companies.
+
+Sometimes borrowers **fail to repay loans**.
+This creates **credit risk**.
+
+If many borrowers default, the **bank may collapse**.
+
+### Example
+
+A bank gives loans worth **₹1000 crore**.
+
+If borrowers fail to repay **₹300 crore**, the bank must have enough **capital reserves** to absorb the loss.
+
+Basel rules ensure banks always keep **minimum safety capital**.
+
+---
+
+# 2. Evolution of Basel Regulations
+
+There are **three major Basel agreements**.
+
+| Basel Agreement | Introduced | Main Focus                     |
+| --------------- | ---------- | ------------------------------ |
+| Basel I         | 1988       | Minimum capital requirement    |
+| Basel II        | 2004       | Risk measurement + supervision |
+| Basel III       | 2010       | Financial crisis prevention    |
+
+---
+
+# 3. Basel I (1988)
+
+## Main Objective
+
+Ensure banks maintain **minimum capital** against risky assets.
+
+### Key Concept: Capital Adequacy Ratio (CAR)
+
+Banks must maintain **at least 8% capital** of their **risk-weighted assets**.
+
+```
+CAR = Capital / Risk Weighted Assets
+```
+
+### Example
+
+Bank loans = ₹100 crore
+
+Risk weight = 100%
+
+Risk weighted assets = ₹100 crore
+
+Minimum capital required:
+
+```
+8% of 100 crore = ₹8 crore
+```
+
+So the bank must keep **₹8 crore capital buffer**.
+
+---
+
+# 4. Risk Weighted Assets (RWA)
+
+Not all loans are equally risky.
+
+| Asset Type       | Risk Level | Risk Weight |
+| ---------------- | ---------- | ----------- |
+| Government bonds | Very low   | 0%          |
+| Home loans       | Medium     | 50%         |
+| Corporate loans  | High       | 100%        |
+
+### Example Portfolio
+
+| Loan Type       | Amount | Risk Weight |
+| --------------- | ------ | ----------- |
+| Govt Bonds      | ₹100   | 0%          |
+| Home Loans      | ₹100   | 50%         |
+| Corporate Loans | ₹100   | 100%        |
+
+```
+RWA = (100 × 0%) + (100 × 50%) + (100 × 100%)
+
+= 0 + 50 + 100
+= 150
+```
+
+Risk Weighted Assets = **₹150**
+
+Capital needed:
+
+```
+8% × 150 = ₹12
+```
+
+---
+
+# 5. Basel II (2004)
+
+Basel II introduced a **better risk management framework**.
+
+It is based on **3 Pillars**.
+
+---
+
+# 6. Three Pillars of Basel II
+
+## Pillar 1: Minimum Capital Requirements
+
+Banks must maintain capital for **three major risks**.
+
+1. Credit Risk
+2. Market Risk
+3. Operational Risk
+
+### Example
+
+A bank must keep capital against:
+
+* loan defaults
+* stock market fluctuations
+* fraud or system failures
+
+---
+
+## Pillar 2: Supervisory Review
+
+Regulators (like **RBI**) check whether banks are managing risks properly.
+
+They review:
+
+* internal risk models
+* capital adequacy
+* stress testing
+
+### Example
+
+If RBI finds a bank taking **excessive risk**, it may force the bank to **increase capital reserves**.
+
+---
+
+## Pillar 3: Market Discipline
+
+Banks must **disclose financial information publicly**.
+
+This helps:
+
+* investors
+* customers
+* regulators
+
+understand the bank’s risk level.
+
+Banks publish:
+
+* capital ratios
+* risk exposure
+* loan quality
+
+in their **annual reports**.
+
+---
+
+# 7. Credit Risk
+
+## What is Credit Risk?
+
+Credit risk is the **risk that a borrower will not repay a loan**.
+
+### Example
+
+Bank gives loan = ₹10 lakh
+
+Borrower defaults.
+
+Loss = ₹10 lakh
+
+This is **credit risk**.
+
+Banks estimate credit risk before giving loans.
+
+---
+
+# 8. IRB Approach (Internal Ratings Based Approach)
+
+Basel II introduced the **IRB Approach**.
+
+Banks use **their own internal models** to estimate credit risk.
+
+Instead of fixed rules, banks calculate risk using:
+
+1. Probability of Default (PD)
+2. Loss Given Default (LGD)
+3. Exposure at Default (EAD)
+
+---
+
+## Probability of Default (PD)
+
+Probability that borrower will default.
+
+### Example
+
+If 5 out of 100 borrowers default
+
+```
+PD = 5%
+```
+
+---
+
+## Loss Given Default (LGD)
+
+Percentage of money the bank loses when default occurs.
+
+### Example
+
+Loan = ₹10 lakh
+
+Bank recovers ₹4 lakh
+
+Loss = ₹6 lakh
+
+```
+LGD = 60%
+```
+
+---
+
+## Exposure at Default (EAD)
+
+Total loan amount at the time of default.
+
+### Example
+
+Loan outstanding = ₹8 lakh
+
+```
+EAD = ₹8 lakh
+```
+
+---
+
+## Expected Loss Formula
+
+```
+Expected Loss = PD × LGD × EAD
+```
+
+### Example
+
+PD = 5%
+LGD = 60%
+EAD = ₹8 lakh
+
+```
+Expected Loss = 0.05 × 0.60 × 800000
+
+= ₹24,000
+```
+
+The bank expects **₹24,000 loss** from that loan.
+
+---
+
+# 9. Basel III (2010)
+
+Basel III was introduced after the **2008 global financial crisis**.
+
+It strengthened banking regulations.
+
+Key improvements:
+
+1. Higher capital requirements
+2. Better liquidity management
+3. Stronger risk control
+
+---
+
+## Key Features of Basel III
+
+### Higher Capital Quality
+
+Banks must maintain better quality capital such as **Common Equity Tier 1 (CET1)**.
+
+---
+
+### Capital Buffers
+
+| Buffer                      | Purpose                     |
+| --------------------------- | --------------------------- |
+| Capital Conservation Buffer | Protect banks during losses |
+| Countercyclical Buffer      | Prevent economic bubbles    |
+
+---
+
+### Liquidity Coverage Ratio (LCR)
+
+Banks must have enough liquid assets to survive **30 days of financial stress**.
+
+Examples:
+
+* Cash
+* Government bonds
+
+---
+
+# 10. Minimum Capital Requirements (Basel III)
+
+| Capital Type                | Requirement |
+| --------------------------- | ----------- |
+| CET1                        | 4.5%        |
+| Tier 1 Capital              | 6%          |
+| Total Capital               | 8%          |
+| Capital Conservation Buffer | 2.5%        |
+
+Total effective requirement ≈ **10.5%**
+
+---
+
+# 11. IFRS Standards
+
+## What is IFRS?
+
+**IFRS (International Financial Reporting Standards)** are global accounting standards used for financial reporting.
+
+They ensure financial statements are:
+
+* transparent
+* comparable
+* reliable
+
+Used in **140+ countries**.
+
+---
+
+# 12. IFRS 9 (Important for Credit Risk)
+
+IFRS 9 deals with **financial instruments** and **loan loss recognition**.
+
+It introduced the **Expected Credit Loss (ECL) model**.
+
+Earlier system used the **incurred loss model**.
+
+Now banks must estimate **future losses earlier**.
+
+---
+
+# 13. Expected Credit Loss (ECL)
+
+Loans are divided into **three stages**.
+
+| Stage   | Condition             | Provision              |
+| ------- | --------------------- | ---------------------- |
+| Stage 1 | Performing loan       | 12‑month expected loss |
+| Stage 2 | Credit risk increased | Lifetime loss          |
+| Stage 3 | Default               | Full lifetime loss     |
+
+---
+
+### Example
+
+Loan = ₹10 lakh
+
+Stage 1 expected default probability = 2%
+
+```
+10,00,000 × 2% = ₹20,000
+```
+
+Bank must provision **₹20,000**.
+
+---
+
+# 14. Difference Between Basel and IFRS
+
+| Feature     | Basel Framework     | IFRS                |
+| ----------- | ------------------- | ------------------- |
+| Purpose     | Bank regulation     | Accounting standard |
+| Focus       | Capital adequacy    | Financial reporting |
+| Regulator   | Basel Committee     | IASB                |
+| Credit Risk | Capital requirement | Loss provisioning   |
+
+---
+
+# 15. Real‑World Example
+
+A bank gives loan = ₹10 lakh.
+
+Risk parameters:
+
+PD = 5%
+LGD = 60%
+
+```
+Expected Loss
+
+= 0.05 × 0.60 × 10,00,000
+
+= ₹30,000
+```
+
+So the bank must:
+
+* keep **capital (Basel rule)**
+* provision **loss reserve (IFRS 9 rule)**
+
+Both systems together ensure the bank remains **financially stable**.
+
+---
+
+# 16. Simple Summary
+
+## Basel Framework
+
+Ensures **bank safety** and defines **capital requirements**.
+
+---
+
+## Three Pillars of Basel II
+
+1. Minimum Capital Requirements
+2. Supervisory Review
+3. Market Discipline
+
+---
+
+## IRB Approach
+
+Banks estimate credit risk using:
+
+* PD (Probability of Default)
+* LGD (Loss Given Default)
+* EAD (Exposure at Default)
+
+---
+
+## IFRS 9
+
+Banks must estimate **Expected Credit Loss (ECL)** early to prepare for future loan defaults.
+
+---
+
+**End of Document**
